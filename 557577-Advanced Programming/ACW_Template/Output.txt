@@ -1,0 +1,43 @@
+MaxDist
+Malton Rail Zeebrugge Harbour 411.279
+
+MaxLink
+17191741 51889340 356.31
+
+FindDist 9361783 11391765 
+Selby Rail Howden Rail 13.5306
+
+FindNeighbour 8611522
+Place Location is : Doncaster Rail
+Neighbours are: Doncaster Ctr 8631524
+Neighbours are: Goole Rail 11251704
+Neighbours are: Selby Rail 9361783
+Neighbours are: Gainsborough Rail 12321385
+Neighbours are: Scunthorpe Rail 13491586
+
+Check 14601225 12321385 8611522 9361783
+14601225 12321385 PASS 12321385 8611522 PASS 8611522 9361783 PASS 
+
+Check 14601225 12321385 8611522 9361783
+14601225 12321385 FAIL 
+
+FindRoute Rail 9081958 15832241
+9081958
+9361783
+9081958
+12032132
+15832241
+
+FindRoute Ship 9081958 15832241
+ Fail 
+
+FindShortestRoute Rail 9081958 15832241
+9081958
+9361783
+9081958
+12032132
+15832241
+
+FindShortestRoute Ship 9081958 15832241
+ Fail 
+
